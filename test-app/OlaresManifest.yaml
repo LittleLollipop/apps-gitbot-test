@@ -4,7 +4,7 @@ metadata:
   name: test-app
   version: 1.0.0
   title: Test App
-  icon: https://example.com/icon.png
+  icon: https://avatars.githubusercontent.com/u/1?v=4
   categories:
     - Productivity
   description: A test application
