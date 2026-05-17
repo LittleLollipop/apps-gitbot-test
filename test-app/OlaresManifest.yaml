@@ -4,13 +4,9 @@ olaresManifest:
 metadata:
   name: test-app
   version: 1.0.0
-  title:
-    en: Test App
-    zh: 测试应用
+  title: Test App
   categories:
     - Productivity
-  description:
-    en: A test application
-    zh: 一个测试应用
+  description: A test application
 spec:
   versionName: 1.0.0
