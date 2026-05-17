@@ -14,6 +14,19 @@ entrances:
     port: 8080
 spec:
   versionName: 1.0.0
+  fullDescription: This is a full description
+  upgradeDescription: Upgrade description
   requiredMemory: 512M
   requiredDisk: 10G
-  requiredCpu: "2"
+  limitedMemory: 1G
+  limitedCpu: "2"
+  developer: Test Developer
+  submitter: test-submitter
+  doc: https://example.com/doc
+  website: https://example.com
+  license:
+    - text: MIT
+      url: https://opensource.org/licenses/MIT
+  legal:
+    - text: Legal
+      url: https://example.com/legal
