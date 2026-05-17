@@ -1,11 +1,11 @@
 olaresManifest.version: v1
 metadata:
-  name: test-app
+  name: filebrowser
   description: Upload, delete, preview, rename, edit and share your files
-  icon: https://avatars.githubusercontent.com/u/1?s=256
-  appid: test-app
-  version: 1.0.1
-  title: Test App
+  icon: https://file.bttcdn.com/appstore/filebrowser/icon.png
+  appid: filebrowser
+  version: 0.0.1
+  title: Filebrowser
   categories:
   - Utilities
 permission:
@@ -27,10 +27,10 @@ spec:
   - https://file.bttcdn.com/appstore/filebrowser/promote_image_3.jpg
   fullDescription: File Browser - Webbased File Browser including sharing functions
     etc.
-  versionName: 1.0.1
-  developer: Test Developer
-  website: https://example.com
-  submitter: test-submitter
+  versionName: v2.25.0
+  developer: FileBrowser
+  website: https://filebrowser.org/
+  submitter: Terminus
   language:
   - en
   requiredMemory: 64Mi
@@ -54,9 +54,9 @@ options:
     type: system
     version: '>=0.3.7-0'
 entrances:
-- name: test-app-service
+- name: filebrowser-service
   port: 80
-  host: test-app-service
-  title: Test App
-  icon: https://avatars.githubusercontent.com/u/1?s=256
+  host: filebrowser-service
+  title: Filebrowser
+  icon: https://file.bttcdn.com/appstore/filebrowser/icon.png
 olaresManifest.type: app
