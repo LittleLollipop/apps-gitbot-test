@@ -1,22 +1,16 @@
-apiVersion: v1
-kind: App
-type: app
+olaresManifest.version: v1
+olaresManifest.type: app
 metadata:
   name: testapp
   version: 1.0.0
   appVersion: "1.0.0"
-spec:
-  displayName:
+  title:
     zh: 测试应用
     en: Test App
-  versionName: "1.0.0"
-  summary:
-    zh: 测试应用
-    en: Test application
   description:
     zh: 用于测试的非 owner PR
     en: Non-owner PR for testing
-  category:
+  categories:
     - Utilities
   icon: https://example.com/icon.png
   screenshots:
@@ -29,16 +23,15 @@ spec:
   license:
     - text: MIT
       url: https://opensource.org/licenses/MIT
-  requiresDevices: {}
   website: https://example.com
   privacyPolicy: https://example.com/privacy
   repositories:
     - name: testapp
       url: oci://registry.example.com/testapp
-      path: ""
   maintainers:
     - name: test-owner
       email: test@example.com
   limitedMemory: "512Mi"
+spec:
+  versionName: "1.0.0"
   releaseNotes: "Test release"
-  releaseBranch: ""
