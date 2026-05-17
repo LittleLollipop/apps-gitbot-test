@@ -1,12 +1,8 @@
-olaresManifest:
-  version: v1
-  type: app
-metadata:
-  name: test-app
-  version: 1.0.0
-  title: Test App
-  categories:
-    - Productivity
-  description: A test application
-spec:
-  versionName: 1.0.0
+apiVersion: v1
+name: test-app
+version: 1.0.0
+type: app
+title: Test App
+categories:
+  - Productivity
+description: A test application
