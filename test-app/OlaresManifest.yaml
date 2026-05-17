@@ -1,8 +1,15 @@
-apiVersion: v1
-name: test-app
-version: 1.0.0
-type: app
-title: Test App
-categories:
-  - Productivity
-description: A test application
+olaresManifest:
+  version: v1
+metadata:
+  name: test-app
+  version: 1.0.0
+  title: Test App
+  categories:
+    - Productivity
+  description: A test application
+entrances:
+  - name: test
+    host: localhost
+    port: 8080
+spec:
+  versionName: 1.0.0
