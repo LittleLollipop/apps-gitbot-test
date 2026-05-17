@@ -34,7 +34,7 @@ spec:
   language:
   - en
   requiredMemory: 64Mi
-  limitedMemory: 135M
+  limitedMemory: 1Gi
   requiredDisk: 128Mi
   limitedDisk: 256Mi
   requiredCpu: 0.1
