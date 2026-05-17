@@ -5,7 +5,7 @@ metadata:
   description: The most powerful and modular stable diffusion GUI and backend.
   icon: https://file.bttcdn.com/appstore/comfyui/icon.webp
   appid: comfyui
-  version: 0.0.14
+  version: 1.0.1
   title: ComfyUI
   categories:
   - Productivity
@@ -22,7 +22,7 @@ permission:
   userData:
   - Home
 spec:
-  versionName: 0.1.0
+  versionName: 1.0.1
   fullDescription: 'The most powerful and modular stable diffusion GUI and backend.
 
     This ui will let you design and execute advanced stable diffusion pipelines using
