@@ -25,7 +25,9 @@ spec:
   minOlaresVersion: "0.1.0"
   architectures:
     - amd64
-  license: MIT
+  license:
+    - text: MIT
+      url: https://opensource.org/licenses/MIT
   requiresDevices: {}
   website: https://example.com
   privacyPolicy: https://example.com/privacy
@@ -36,6 +38,6 @@ spec:
   maintainers:
     - name: test-owner
       email: test@example.com
-  limitedMemory: 512Mi
+  limitedMemory: "512Mi"
   releaseNotes: "Test release"
   release branch: ""
