@@ -1,1 +1,1 @@
-replicaCount: 1
+image: testapp:1.0.0
