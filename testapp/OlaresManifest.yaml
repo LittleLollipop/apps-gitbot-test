@@ -2,36 +2,75 @@ olaresManifest.version: v1
 olaresManifest.type: app
 metadata:
   name: testapp
+  description: Notion-style WYSIWYG editor with AI-powered autocompletion
+  icon: https://avatars.githubusercontent.com/u/1?s=256
+  appid: testapp
   version: 1.0.0
-  appVersion: "1.0.0"
-  title:
-    zh: 测试应用
-    en: Test App
-  description:
-    zh: 用于测试的非 owner PR
-    en: Non-owner PR for testing
+  title: Novel
   categories:
-    - Utilities
-  icon: https://example.com/icon.png
-  screenshots:
-    - https://example.com/screenshot.png
-  keywords:
-    - test
-  minOlaresVersion: "0.1.0"
-  architectures:
-    - amd64
-  license:
-    - text: MIT
-      url: https://opensource.org/licenses/MIT
-  website: https://example.com
-  privacyPolicy: https://example.com/privacy
-  repositories:
-    - name: testapp
-      url: oci://registry.example.com/testapp
-  maintainers:
-    - name: test-owner
-      email: test@example.com
-  limitedMemory: "512Mi"
+  - Productivity
+  - Utilities
+permission:
+  appData: true
+  appCache: true
 spec:
-  versionName: "1.0.0"
-  releaseNotes: "Test release"
+  versionName: 1.0.0
+  featuredImage: https://file.bttcdn.com/appstore/novel/promote_image_1.webp
+  promoteImage:
+  - https://file.bttcdn.com/appstore/novel/promote_image_1.webp
+  - https://file.bttcdn.com/appstore/novel/promote_image_2.webp
+  fullDescription: "Novel is a web-based open-source WYSIWYG (What You See Is What\
+    \ You Get) editor inspired by Notion, offering AI-powered autocompletions. \n\n\
+    Key Features:\n- WYSIWYG Editing: Offers a user-friendly editing experience where\
+    \ users can see how the content will appear in real-time.\n\n- AI Autocompletions:\
+    \ Employs AI-powered autocompletions to suggest relevant words, phrases, and sentences\
+    \ as users type.\n\n- Open-Source: Allows developers to contribute, customize,\
+    \ and extend the tool's functionality as per their requirements.\n\nIt is particularly\
+    \ useful for those who write long-form content, such as essays or reports, and\
+    \ helps them maintain a consistent tone and style throughout their writing.\n"
+  upgradeDescription: 'What''s Changed
+
+    - Fix Style injection caused tailwind override css priorities by @eyalcohen4 in
+    #161
+
+    - feat: use more general type for extensions option by @tjwelde in #171
+
+    - Create context provider for storing /api/generate endpoint by @steven-tey in
+    #190
+
+    - Added support for transforming pasted markdown text by @steven-tey in #191
+
+
+    Origin Release Note: https://github.com/steven-tey/novel/releases/tag/0.1.22
+
+    '
+  developer: Steven Tey
+  website: https://novel.sh/
+  sourceCode: https://github.com/steven-tey/novel
+  submitter: Terminus
+  language:
+  - en
+  doc: https://github.com/steven-tey/novel
+  license:
+  - text: Apache-2.0
+    url: https://github.com/steven-tey/novel#Apache-2.0-1-ov-file
+  requiredMemory: 1Gi
+  limitedMemory: 2Gi
+  requiredDisk: 1Gi
+  limitedDisk: 1Gi
+  requiredCpu: 0.5
+  limitedCpu: 1
+  supportArch:
+  - amd64
+entrances:
+- name: testapp
+  host: novella
+  port: 3000
+  title: Novel
+  icon: https://avatars.githubusercontent.com/u/1?s=256
+  authLevel: private
+options:
+  dependencies:
+  - name: terminus
+    type: system
+    version: '>=0.3.0-0'
