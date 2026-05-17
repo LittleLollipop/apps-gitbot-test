@@ -1,13 +1,16 @@
-apiVersion: v1
-name: test-app
-version: 1.0.0
-type: app
-title:
-  en: Test App
-  zh: 测试应用
-categories:
-  - Productivity
-description:
-  en: A test application
-  zh: 一个测试应用
-
+olaresManifest:
+  version: v1
+  type: app
+metadata:
+  name: test-app
+  version: 1.0.0
+  title:
+    en: Test App
+    zh: 测试应用
+  categories:
+    - Productivity
+  description:
+    en: A test application
+    zh: 一个测试应用
+spec:
+  versionName: 1.0.0
