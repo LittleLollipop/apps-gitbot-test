@@ -14,3 +14,4 @@ entrances:
     port: 8080
 spec:
   versionName: 1.0.1
+  requiredMemory: 512M
