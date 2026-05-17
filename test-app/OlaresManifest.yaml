@@ -16,3 +16,4 @@ spec:
   versionName: 1.0.1
   requiredMemory: 512M
   requiredDisk: 10G
+  requiredCpu: "2"
