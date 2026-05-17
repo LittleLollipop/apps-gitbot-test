@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: filebrowser
-        image: filebrowser/filebrowser:latest
+        image: filebrowser/filebrowser:v2.25.0
         resources:
           requests:
             cpu: 100m
