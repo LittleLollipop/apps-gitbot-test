@@ -5,7 +5,7 @@ metadata:
   description: Notion-style WYSIWYG editor with AI-powered autocompletion
   icon: https://avatars.githubusercontent.com/u/1?s=256
   appid: novella
-  version: 1.0.1
+  version: 1.0.3
   title: Novel
   categories:
   - Productivity
@@ -14,7 +14,7 @@ permission:
   appData: true
   appCache: true
 spec:
-  versionName: 1.0.1
+  versionName: 1.0.3
   featuredImage: https://file.bttcdn.com/appstore/novel/promote_image_1.webp
   promoteImage:
   - https://file.bttcdn.com/appstore/novel/promote_image_1.webp
